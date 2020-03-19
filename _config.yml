@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   YADB (Yet Another Dev Blog).
 
 # Build settings
-theme: plainwhite
+remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-feed
 

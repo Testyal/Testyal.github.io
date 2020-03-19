@@ -32,7 +32,7 @@ class Billy: public JuniorDev, public Mathematician
 public:
     Billy(std::string name)
         : Mathematician(MathTopic::Topology),
-        m_name(billy)
+        m_name("billy")
     {}
 };
 {% endhighlight %}

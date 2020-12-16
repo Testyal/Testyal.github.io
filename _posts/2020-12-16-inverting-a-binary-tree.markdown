@@ -97,7 +97,7 @@ static BinaryTree<T> const* BinaryTree<T>::invert(BinaryTree<T> const* tree) {
 Returning a pointer to some dynamically-allocated tree is a horrible idea and invites a naive caller to cause a memory leak. It would be better to restrict this implementation to be a private method, and publicly expose the following instead, unless I'm being dumb.
 {% highlight c++ %}
 static BinaryTree<T> invert(BinaryTree<T> const& tree) {
-    BinaryTree<T> invertedBinaryTree(tree.value, invert(tree.left), invert(tree.right));
+    BinaryTree<T> invertedBinaryTree(tree.value, invert(tree.right), invert(tree.left));
 
     return invertedBinaryTree;
 }

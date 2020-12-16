@@ -103,5 +103,3 @@ static BinaryTree<T> invert(BinaryTree<T> const& tree) {
 }
 {% endhighlight %}
 This way, as far as I know, the returned tree is allocated on the stack, and thanks to our destructor, its children will be destroyed when the tree goes out of scope. This avoids the problem of the caller having to manually delete a tree. A further benefit of this approach is being able to pass a reference instead, since the recursiveness is in our private implementation.
-
-Only problem is, I can't install valgrind on my system to check if this is true without some workaround, which is out of the scope of this blog post.

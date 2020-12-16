@@ -7,7 +7,7 @@ I don't intend to apply to Google any time soon, but I'm buzzed on coffee and fe
 
 ## Binary trees
 ![A binary tree](/assets/binary_tree.JPG)
-A *binary tree* is a tree in which each node has at most has at most two children (a bifurcating arborescence), called the *left* child and *right* child. Inverting a binary tree is a common and memeified interview question, where the left child of each node is swapped with the right child.
+A *binary tree* is a tree in which each node has at most has at most two children (a bifurcating arborescence), called the *left* child and *right* child. Inverting a binary tree is a common and memeified interview question, where the left child of each node is swapped with the right child. A binary tree is *full* if each node has precisely zero or two children.
 
 The easiest (best? only?) algorithm for inverting a binary tree is recursive: replace the left child of the root with the inverted right child, and vice versa. In the worst case scenario, inverting takes time on the order of 2<sup>*d*</sup>, where *d* is the depth of the tree. Indeed, if *T(d)* is this time, then *T(1) = C<sub>1</sub>* (there is nothing to do), and *T(d) = C<sub>2</sub> + 2 T(d-1)* otherwise.
 

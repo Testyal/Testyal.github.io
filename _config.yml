@@ -27,6 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-katex
 
 markdown: kramdown
 kramdown:

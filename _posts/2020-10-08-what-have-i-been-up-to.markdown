@@ -7,7 +7,7 @@ date:   2020-10-26 14:00 +0000
 
 ## Calculus of Variations
 
-It's been a year and a half since I last did any math, so I went back to the [Calculus of Variations](https://warwick.ac.uk/fac/sci/maths/people/staff/filip_rindler/calculusofvariations), returning to the chapters on Young measures and quasiconvexity (in the sense of Morrey) in particular. I've gone through these chapters like 5 times already, so I'm not learning anything new, but goinng through them again much slower than before is a good way to expose any gaps in my knowledge and clear up any wizardry happpening in the proofs. To be honest, most of the proofs involve some wizardry, guess I can't do much about that. One of the proofs in particular uses the [Hardy-Littlewood maximal function](https://en.wikipedia.org/wiki/Hardy–Littlewood_maximal_function) to establish equiintegrability of a particular subsequence of gradients. It's probably easy to see why it should be used if you've had experience in its ability to control Sobolev functions, but for someone like me whose knowledge of $$W^{1, p}$$ and $$L^1$$ are pretty far apart, it's not particularly obvious. Potentially this is a gap in my knowledge I can fill with a lot of poring over something like [Measure Theory and Fine Properties of Functions](https://www.routledge.com/Measure-Theory-and-Fine-Properties-of-Functions-Revised-Edition/Evans-Gariepy/p/book/9781482242386) or something along those lines.
+It's been a year and a half since I last did any math, so I went back to the [Calculus of Variations](https://warwick.ac.uk/fac/sci/maths/people/staff/filip_rindler/calculusofvariations), returning to the chapters on Young measures and quasiconvexity (in the sense of Morrey) in particular. I've gone through these chapters like 5 times already, so I'm not learning anything new, but goinng through them again much slower than before is a good way to expose any gaps in my knowledge and clear up any wizardry happpening in the proofs. To be honest, most of the proofs involve some wizardry, guess I can't do much about that. One of the proofs in particular uses the [Hardy-Littlewood maximal function](https://en.wikipedia.org/wiki/Hardy–Littlewood_maximal_function) to establish equiintegrability of a particular subsequence of gradients. It's probably easy to see why it should be used if you've had experience in its ability to control Sobolev functions, but for someone like me whose knowledge of { %katex } W^{1, p} { %endkatex } and  { %katex } L^1 { %katex } are pretty far apart, it's not particularly obvious. Potentially this is a gap in my knowledge I can fill with a lot of poring over something like [Measure Theory and Fine Properties of Functions](https://www.routledge.com/Measure-Theory-and-Fine-Properties-of-Functions-Revised-Edition/Evans-Gariepy/p/book/9781482242386) or something along those lines.
 
 ## C\#
 
@@ -48,17 +48,3 @@ Learning reading first provides a small base for everything else, but it also me
 ## Anything else?
 
 I finished [FF7 Remake](https://en.wikipedia.org/wiki/Final_Fantasy_VII_Remake) the other day. I never played the original or any other Final Fantasy besides FFXIV, so it was a nice introduction to the series and the characters. Hopefully the next one comes out soon, I wanna see Sephiroth again.
-
-<script type="text/javascript">
-  $("script[type='math/tex']").replaceWith(
-    function(){
-      var tex = $(this).text();
-      return katex.renderToString(tex, {displayMode: false});
-  });
-  
-  $("script[type='math/tex; mode=display']").replaceWith(
-    function(){
-      var tex = $(this).text();
-      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
-  });
-</script>
